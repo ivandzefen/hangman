@@ -37,6 +37,5 @@ This script requires Python to be installed on your system. You can download and
 ### Additional Notes
 
 * The game reads words from a text file named `words.txt`. Make sure this file is in the same directory as the Python script. You can add your own words to this file, each on a separate line.
-* The code uses regular expressions to handle word selection and letter matching.
 
 I hope you enjoy this Hangman game!
