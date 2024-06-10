@@ -15,7 +15,7 @@ def display_hangman(wrong_guesses):
     Displays the hangman visual based on the number of wrong guesses.
     """
     stages = [
-        """
+        r"""
             --------
             |      |
             |
@@ -25,27 +25,27 @@ def display_hangman(wrong_guesses):
             |
             -------
         """,
-        """
-            --------
-            |      |
-            |      O
-            |
-            |
-            |
-            |
-            -------
-        """,
-        """
+        r"""
             --------
             |      |
             |      O
+            |
+            |
+            |
+            |
+            -------
+        """,
+        r"""
+            --------
+            |      |
+            |      O
             |      |
             |
             |
             |
             -------
         """,
-        """
+        r"""
             --------
             |      |
             |      O
@@ -55,7 +55,7 @@ def display_hangman(wrong_guesses):
             |
             -------
         """,
-        """
+        r"""
             --------
             |      |
             |      O
@@ -65,7 +65,7 @@ def display_hangman(wrong_guesses):
             |
             -------
         """,
-        """
+        r"""
             --------
             |      |
             |      O
